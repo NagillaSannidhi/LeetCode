@@ -14,9 +14,9 @@ class Solution {
         
         while (current != null && current.next != null) {
             if (current.val == current.next.val) {
-                current.next = current.next.next; // skip the duplicate
+                current.next = current.next.next;
             } else {
-                current = current.next; // move forward
+                current = current.next; // move
             }
         }
         
